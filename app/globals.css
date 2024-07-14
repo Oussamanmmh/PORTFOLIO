@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+   background-image: linear-gradient(to right, #6a3093, #d6adff, #ffffff);
+}
