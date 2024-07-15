@@ -10,17 +10,44 @@
     @apply bg-white rounded-full  relative w-44 after:rounded-full after:absolute after:bg-purple-700 after:h-[40px] after:w-[40px] after:top-0 after:right-[0px] hover:cursor-pointer hover:after:transition-all   hover:after:duration-200 hover:after:w-full 
 }
 
-li{
-    @apply bg-gray-900  hover:w-[200px] relative hover:bg-purple-700 rounded-full hover:duration-300 size-16 flex justify-center hover:transition-all    items-center p-4 after:absolute after:size-16 after:bg-purple-700 after:rounded-full  after:opacity-0
+li a{
+    @apply bg-gray-900  hover:w-[200px] relative  hover:bg-purple-700 rounded-full justify-center hover:duration-1000 size-16 flex  hover:transition-all    items-center p-4 after:absolute after:size-16 after:bg-purple-700 after:rounded-full  after:opacity-0
 }
 
 
-li:hover p{
+ li:hover p{
 
-    display: block;
-    transition: all 0.5s ease ;
-    opacity: 1;
+     display: block;
+     transition: all 0.5s ease ;
+     opacity: 1;
+
+    
     
 
+} 
+@keyframes fadein {
+    from {display: none;}
+    to {display: block;}
+    
 }
 
+input, textarea {
+    @apply p-3 rounded-3xl bg-gray-800  ;
+}
+
+textarea:focus{
+    @apply outline-purple-700
+}
+input:focus{
+    @apply outline-purple-700
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #a855f7; 
+    border-radius: 6px; 
+    border: 3px solid #a855f7; 
+  }
+  
