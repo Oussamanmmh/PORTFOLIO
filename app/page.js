@@ -23,7 +23,7 @@ export default function Home() {
               duration: 2,
               x: { duration: 1 }
             }}
-            className="text-4xl font-bold text-center">I am Oussama Nemamcha <span className="text-purple-700 ">full stack developer</span></motion.h1>
+            className="text-4xl font-bold text-center font-rubik uppercase">I am Oussama Nemamcha <span className="text-purple-700 font-rubik  ">full stack developer</span></motion.h1>
             <p className="text-md max-w-[500px] text-center ">
               I am a full-stack developer specializing in both web and mobile applications. With expertise in HTML, CSS, JavaScript, Next.js, React, and Flutter, I create responsive, user-friendly digital solutions. My commitment to continuous learning ensures I stay updated with the latest trends and technologies, delivering modern, high-quality results.
              </p>
